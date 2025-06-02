@@ -1,0 +1,11 @@
+Descripción del proyecto:
+
+El objetivo es desarrollar un sitio web completamente funcional y responsivo para una empresa ficticia o un caso de estudio proporcionado. El sitio debe incluir las siguientes características:
+
+1. Diseño web responsivo: El sitio debe adaptarse de manera óptima a diferentes dispositivos y tamaños de pantalla, utilizando técnicas de diseño web responsivo.
+
+2. Maquetación HTML5 y CSS3: La estructura del sitio debe estar construida con HTML5 semántico, y el estilo visual debe implementarse utilizando CSS3, incluyendo animaciones y transiciones cuando sea apropiado.
+
+3. Rendimiento y accesibilidad: Optimizar el rendimiento del sitio web mediante técnicas como la compresión de recursos, el uso de imágenes optimizadas y la implementación de buenas prácticas de accesibilidad web.
+
+4. Control de versiones: Utilizar un sistema de control de versiones como Git para realizar un seguimiento del progreso del proyecto y colaborar en equipo (si corresponde).

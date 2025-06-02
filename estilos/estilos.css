@@ -1,0 +1,49 @@
+body,html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Public Sans', sans-serif;
+      background: rgb(248, 248, 248);
+    }
+
+.logo {
+    
+    width: 140px; /* Ancho del logo */
+    height: 40px; /* Alto del logo */
+    position: relative; /* Para que el logo se posicione correctamente */
+  left: 160px; 
+    margin: 16px; 
+    top: 0; /* Alinear al borde superior */
+    position: relative; /* Para que el logo se posicione correctamente */
+transition: all 0.3s ease;
+}
+ul{
+    list-style-type: none;
+    background-color: #8341a2;
+    overflow: hidden; /*No se superpone con lo demas*/
+    margin: 0;
+    padding: 0;
+    padding-right: 150px;
+}
+li{
+    float: right;
+     /*Mover a la derecha los dos  */
+   
+}
+    
+li a{
+    line-height: 50px; /*Altura del menu*/;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px; /*Espacio interno*/
+    text-decoration: none; /*Quita el subrayado*/
+      width: 50px;  
+  transition: all 0.3s ease;
+}
+
+li a:hover, ul img:hover {
+     background: #8341a2;
+  color: #fff;
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 8px 24px rgba(248, 248, 248, 0.25);
+}

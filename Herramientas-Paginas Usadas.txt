@@ -1,0 +1,2 @@
+Extractores online como ImageColorPicker.
+-Extractor de fuente: https://www.myfonts.com/es/pages/whatthefont?step=resultPage
