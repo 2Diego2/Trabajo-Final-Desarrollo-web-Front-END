@@ -41,9 +41,9 @@ Incluye animaciones y una estructura adaptable a diferentes dispositivos.
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/2Diego2/Trabajo-Final-Desarrollo-web-Front-END.git cd Trabajo-Final-Desarrollo-web-Front-END
-2. Navega a la carpeta del proyecto:
-cd Trabajo-Final-Desarrollo-web-Front-END
+   git clone https://github.com/2Diego2/Trabajo-Final-Desarrollo-web-Front-END.git
+2. Navega a la carpeta del proyecto: 
+ cd Trabajo-Final-Desarrollo-web-Front-END
 3. Abre el archivo index.html en tu navegador preferido.
 ---
 ## 🎯 Objetivos del proyecto
