@@ -12,7 +12,7 @@ Incluye animaciones y una estructura adaptable a diferentes dispositivos.
 ![Image](https://github.com/user-attachments/assets/5f7317bb-6714-4f97-b43a-50903400fd74)
 ---
 ## Boceto
-[Boceto Final.pdf](https://github.com/user-attachments/files/20594960/Boceto.Final.pdf)
+![Image](https://github.com/user-attachments/assets/f40db1a3-34c3-415a-a918-666782f09d22)
 ---
 
 ## 🌟 Características principales
