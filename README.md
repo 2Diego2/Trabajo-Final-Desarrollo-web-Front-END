@@ -8,8 +8,7 @@ Incluye animaciones y una estructura adaptable a diferentes dispositivos.
 ## ¡Explora la página y descubre todas las interacciones! 👀
 [Visita la Demo aquí](https://frolicking-melomakarona-26b6eb.netlify.app/)
 
-![Image](https://github.com/user-attachments/assets/23d5130a-ee19-4248-901c-a70dab781e7c)
-
+![Image](https://github.com/user-attachments/assets/6032869b-1f6c-4b4f-a8de-8dcd4112f826)
 ---
 ## Boceto
 ![Image](https://github.com/user-attachments/assets/f40db1a3-34c3-415a-a918-666782f09d22)
