@@ -10,7 +10,6 @@ Incluye animaciones y una estructura adaptable a diferentes dispositivos.
 
 ![Image](https://github.com/user-attachments/assets/23d5130a-ee19-4248-901c-a70dab781e7c)
 
-![Image](https://github.com/user-attachments/assets/5f7317bb-6714-4f97-b43a-50903400fd74)
 ---
 ## Boceto
 ![Image](https://github.com/user-attachments/assets/f40db1a3-34c3-415a-a918-666782f09d22)
