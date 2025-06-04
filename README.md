@@ -1,4 +1,4 @@
-# 🚀 Trabajo Final – Desarrollo Front-End
+## 🚀 Trabajo Final – Desarrollo Front-End
 
 ¡Bienvenido al proyecto final de Desarrollo Front-End de la materia **"Programación II"**!  
 Este proyecto consiste en una **landing page moderna y responsiva** que presenta información de forma visualmente atractiva.  
@@ -10,7 +10,9 @@ Incluye animaciones y una estructura adaptable a diferentes dispositivos.
 ¡Echa un vistazo a cómo luce y funciona la página!
 
 ![Image](https://github.com/user-attachments/assets/5f7317bb-6714-4f97-b43a-50903400fd74)
-
+---
+## Boceto
+[Boceto Final.pdf](https://github.com/user-attachments/files/20594960/Boceto.Final.pdf)
 ---
 
 ## 🌟 Características principales
