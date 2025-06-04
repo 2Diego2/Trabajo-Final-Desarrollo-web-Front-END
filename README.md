@@ -5,9 +5,8 @@ Este proyecto consiste en una **landing page moderna y responsiva** que presenta
 Incluye animaciones y una estructura adaptable a diferentes dispositivos.
 
 ---
-## ¡Demostración! 🚀
-
-¡Echa un vistazo a cómo luce y funciona la página!
+## ¡Explora la página y descubre todas las interacciones! 👀
+[Visita la Demo aquí](https://frolicking-melomakarona-26b6eb.netlify.app/)
 
 ![Image](https://github.com/user-attachments/assets/5f7317bb-6714-4f97-b43a-50903400fd74)
 ---
