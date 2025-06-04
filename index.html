@@ -6,15 +6,135 @@
     <title>Veterinaria</title>
     <link rel="stylesheet" href="./estilos/estilos.css">
      <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="icon" type="./Imágenes/hospital-symbol-solid.png" href="./Imágenes/hospital-symbol-solid.png" >
+    </head>
 <body>
+  
     <ul>
      <img src="./Imágenes/logo.png" alt="Logo de la veterinaria" class="logo"> 
     <li><a href="">Lorem</a></li> <li><a href="">Lorem</a></li> 
     </ul>
-    <section class="inicio" id="inicio">
- <h1>Bienvenidos</h1>
- <img src="./Imágenes/imagen.png" alt="Fotos animales" class="animales">
+    <section class="inicio" id="inicio" >
+ <h1>¡Bienvenidos!</h1><img src="./Imágenes/imagen.png" alt="Fotos animales" class="animales">
     </section>
+   <section class="mascotas">
+  <div class="mascotas-titulo">
+    <h2>Mascotas</h2>
+    <img src="./Imágenes/vineta-violeta.svg" alt="vineta violeta" class="vineta">
+  </div>
+  <div class="btn-cont">
+    <a href="#" class="btn">Ingresar mascota</a>
+  </div>
+</section>
+<section class="formulario">
+  <form>
+    <div class="formrow">
+      <div class="form-group">
+        <label>Mascota*</label>
+        <div class="radio-group">
+          <input type="radio" id="gato" name="mascota" value="gato">
+          <label for="gato">Gato</label>
+          <input type="radio" id="perro" name="mascota" value="perro">
+          <label for="perro">Perro</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="nombre">Nombre*</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre de la mascota" required>
+      </div>
+      <div class="form-group">
+        <label for="apodo">Apodo*</label>
+        <input type="text" id="apodo" name="apodo" placeholder="Ingrese el apodo de la mascota" required>
+      </div>
+    </div>
+
+    <div class="formrow">
+      <div class="form-group">
+        <label for="edad">Edad aproximada*</label>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese la edad de la mascota" required>
+      </div>
+      <div class="form-group">
+        <label for="sexo">Sexo*</label>
+        <div class="radio-group">
+          <input type="radio" id="macho" name="sexo" value="macho">
+          <label for="macho">Macho</label>
+          <input type="radio" id="hembra" name="sexo" value="hembra">
+          <label for="hembra">Hembra</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="descripcion">Descripción física*</label>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese una breve descripción de la mascota" required>
+      </div>
+    </div>
+
+    <div class="formrow">
+      <div class="form-group">
+        <label for="caracteristicas">Características</label>
+        <select id="caracteristicas" class="caracteristica-select">
+          <option disabled selected>Color principal</option>
+       <option value="#000000" style="background-color: #000000; color: #ffffff;">Negro</option>
+    <option value="#FFFFFF" style="background-color: #FFFFFF; color: #000000;">Blanco</option>
+    <option value="#4E2A04" style="background-color: #4E2A04; color: #ffffff;">Marrón oscuro</option>
+    <option value="#3C1414" style="background-color: #3C1414; color: #ffffff;">Marrón chocolate</option>
+    <option value="#C3A377" style="background-color: #C3A377; color: #000000;">Marrón claro (beige)</option>
+    <option value="#E5AA70" style="background-color: #E5AA70; color: #000000;">Fawn (leonado)</option>
+    <option value="#DAA520" style="background-color: #DAA520; color: #000000;">Dorado</option>
+    <option value="#FFFDD0" style="background-color: #FFFDD0; color: #000000;">Crema</option>
+    <option value="#808080" style="background-color: #808080; color: #ffffff;">Gris</option>
+    <option value="#C0C0C0" style="background-color: #C0C0C0; color: #000000;">Plateado</option>
+    <option value="#A52A2A" style="background-color: #A52A2A; color: #ffffff;">Rojo intenso</option>
+    <option value="#A0522D" style="background-color: #A0522D; color: #ffffff;">Canela</option>
+  </select>
+        <button type="button" class="caracteristica-add">+ Añadir característica</button>
+      </div>
+      <div class="form-group">
+        <label for="caracteristica-input">Ingresar característica</label>
+        <input type="text" id="caracteristica-input" class="caracteristica-input" placeholder="Ingresar característica">
+      </div>
+      <div class="form-group">
+        <label for="fotos">Fotos</label>
+        <div class="file-group">
+          <input type="file" id="fotos" class="fotos-input">
+          <button type="button" class="foto-add">+ Añadir foto</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="formrow">
+      <button type="submit" class="btn-guardar">GUARDAR</button>
+    </div>
+    <p class="form-info">Los campos marcados con (*) son obligatorios</p>
+  </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-contenido">
+        <img src="./Imágenes/footer.png" alt="Fondo footer" class="fondo-footer">
+        <div class="footer-content-overlay">
+            <h2>Contactanos</h2>
+            <img src="./Imágenes/vineta-violeta.svg" alt="vineta violeta" class="vineta">
+            <p class="footer-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+            
+            <div class="info-contacto">
+                <div class="contacto-item">
+                    <img src="./Imágenes/tel.svg" alt="telefono">
+                    <h3>Teléfono</h3>
+                    <p>+54 9 11 5162 0516</p>
+                </div>
+                <div class="contacto-item">
+                    <img src="./Imágenes/mail.svg" alt="mail">
+                    <h3>Mail</h3>
+                    <p>info@vetonline.com</p>
+                </div>
+            </div>
+            
+            <div class="copy">
+                <p>Copyright © 2025. Todos los derechos reservados. Realizado por <a href="https://github.com/2Diego2" target="_blank" rel="noopener noreferrer">2Diego2</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

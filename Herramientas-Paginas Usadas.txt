@@ -1,2 +1,3 @@
-Extractores online como ImageColorPicker.
+-Extractores online como ImageColorPicker.
 -Extractor de fuente: https://www.myfonts.com/es/pages/whatthefont?step=resultPage
+-Generador de imágenes como Font Awesome Favicon Generator para convertir el icono en una imagen.
